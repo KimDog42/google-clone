@@ -13,7 +13,7 @@ function ManageYourAccountTopBar() {
   return (
     <div className="p-2 overflow-auto">
       <div className="flex text-white p-3 w-full space-x-5 items-center">
-        <h2 className="text-black flex items-center space-x-5 font-bold">Google Account</h2>
+        <a href="/" className="text-black flex items-center space-x-5 font-bold">Google Account</a>
         <div className="space-x-10 flex text-4xl items-center">
         <Grid>
           <Input
@@ -32,9 +32,11 @@ function ManageYourAccountTopBar() {
     <div className="flex absolute top-5 overflow-x-auto right-0 flex-auto space-x-5 items-center pr-5">
           <QuestionMarkCircleIcon className="h-7 text-black"/>
           <ViewGridIcon className="h-7 text-black"/>
+          <a href="/Profile/Settings/ManageYourGoogleAccount">
           <img 
           className="h-10 rounded-full flex items-center"
           src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/d13ba675122137.5c44239685eb3.gif"/>
+          </a>
         </div>
 
     </div>

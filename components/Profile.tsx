@@ -6,9 +6,9 @@ function Profile() {
   return (
     <div className="pr-4 pl-0">
         <div className="text-white pr-4">
-        <button>
-          <a href="Profile/Login" className="bg-blue-600 h-10 p-3 rounded">Sign In</a>
-        </button>
+          <a href="/Profile/Login">
+          <UserCircleIcon className="h-10"/>
+          </a>
         </div>
     </div>
   )

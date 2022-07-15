@@ -17,7 +17,6 @@ function TopBar() {
         <a href="https://www.google.co.uk/imghp?hl=en&ogbl">Images</a>
         <ViewGridIcon className="h-8 hover:bg-gray-400 rounded-full"/>
         <Profile/>
-        <a href="Profile/Settings/ManageYourGoogleAccount" className="bg-blue-600 h-10 p-3 rounded">Manage Your Account (Temp Placement for this)</a>
         </div>
     </div>
   )

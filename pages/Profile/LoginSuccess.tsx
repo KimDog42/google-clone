@@ -8,7 +8,7 @@ function LoginSuccess() {
         <Loading size="xl" color="primary" textColor="primary">You Can Now Return Back To Google!</Loading>
         </div>
         <div className="flex justify-center pt-10">
-        <a href="/" className="rounded p-3 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-160 hover:bg-gray-900 duration-300 cursor-pointer">Take Me Back To The Google Clone Google</a>
+        <a href="/Profile/Settings/ManageYourGoogleAccount" className="rounded p-3 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-160 hover:bg-gray-900 duration-300 cursor-pointer">Take Me Back To Manage your Google Account</a>
         </div>
     </div>
   )

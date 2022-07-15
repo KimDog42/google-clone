@@ -29,7 +29,7 @@ function ManageYourAccountSidebar() {
             </a>
          </li>
          <li>
-            <a href="#" className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-black hover:bg-gray-100 dark:hover:bg-gray-700">
+            <a href="/Profile/Settings/DataAndPrivacy" className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-black hover:bg-gray-100 dark:hover:bg-gray-700">
             <AdjustmentsIcon className="h-7"/>
                <span className="flex-1 ml-3 whitespace-nowrap">Data and Privacy</span>
             </a>
