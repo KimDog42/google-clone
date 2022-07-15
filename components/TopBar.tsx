@@ -13,8 +13,8 @@ function TopBar() {
     <div className="itmes-center">
 
         <div className="flex items-center space-x-5 text-white justify-end pt-4">
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
+        <a href="https://google.com/gmail">Gmail</a>
+        <a href="https://www.google.co.uk/imghp?hl=en&ogbl">Images</a>
         <ViewGridIcon className="h-8 hover:bg-gray-400 rounded-full"/>
         <Profile/>
         </div>
