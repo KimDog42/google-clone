@@ -7,7 +7,7 @@ import TopBar from '../components/TopBar';
 import SearchBarInput from '../components/SearchBar/SearchBarInput';
 import ButtonsUnderSearchBar from '../components/SearchBar/ButtonsUnderSearchBar';
 import PageInfoBottom from './../components/PageInfoBottom';
-import Login from '../components/LoginButtonsComponent';
+import Login from '../components/Login/LoginButtonsComponent';
 
 const Home: NextPage = () => {
   return (

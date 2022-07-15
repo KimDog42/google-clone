@@ -6,10 +6,11 @@ import GoogleLogo from '../../Assetts/GoogleLogo';
 
 function SearchBarInput() {
   return (
-    <div className="flex justify-center pt-8 text-white">
+    <div className="flex justify-center pt-10 text-white p-3 w-full">
         <Grid>
           <Input
             clearable
+            size="xl"
             bordered
             color="primary"
             contentLeft={<GoogleLogo/>}
