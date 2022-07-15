@@ -67,10 +67,9 @@ function ManageYourGoogleAccount() {
           <div className="pt-10 flex items-center justify-center">
               <AccountCollapseMenu/>
           </div>
-
           <div className="justify-center pt-40">
           <h2 className="flex justify-center">Only you can see your settings. You might also want to review your settings for Maps, Search or whatever Google</h2>
-          <h2 className="flex justify-center">service that you use the most. Google keeps your data private, safe and secure. Find out more</h2>
+          <h2 className="flex justify-center">service that you use the most. Google keeps your data private, safe and secure.</h2><h2 className="flex justify-center text-blue-600 cursor-pointer">Find out more</h2>
         </div>
 
         </div>
